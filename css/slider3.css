@@ -25,20 +25,20 @@ body {
 }
 .slick-prev::after {
   content: "";
-  width: 0;
-  height: 0;
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
-  top: 0;
-  margin: auto;
-  z-index: -1;
-  border-radius: 50%;
   background: #ff6612;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
+  top: 0;
+  margin: auto;
+  z-index: -1;
+  border-radius: 50%;
+  width: 0;
+  height: 0;
 }
 
 .slick-next {
