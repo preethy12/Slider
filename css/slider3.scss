@@ -1,0 +1,56 @@
+body{
+    padding:30px;
+}
+.slider__container{
+    position: relative;
+    img{
+        width: 300px;
+    }
+}
+
+
+.slick-prev {
+width: 40px;
+height: 40px;
+border: 1px solid #c4c4c4;
+border-radius: 50%;
+    &::before {
+        content: '';
+        height: 36px;
+        width: 26px;
+        display: block;
+        opacity: 1;
+        background: url('https://www.tourmyindia.com/imgnew/left-arrow-pink.svg') no-repeat center;
+    }
+        &::after {
+            content: "";
+            width: 0;
+            height: 0;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+            z-index: -1;
+            border-radius: 50%;
+            background: #ff6612;
+            -webkit-transition: .2s;
+            -o-transition: .2s;
+            transition: .2s;
+        }
+}
+.slick-next {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #c4c4c4;
+    border-radius: 50%;
+    &::before {
+        content: '';
+        height: 36px;
+        width: 26px;
+            display: block;
+            opacity: 1;
+            background: url('https://www.tourmyindia.com/imgnew/small-right-arrow-pink.svg') no-repeat center;
+        }
+}

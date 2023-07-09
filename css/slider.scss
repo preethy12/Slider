@@ -1,0 +1,19 @@
+h2{
+    text-align:center;
+    padding: 20px;
+  }
+  .slide{
+    background-color: blue;
+    width:100%;
+    padding: 10px;
+    margin-left: 20px;
+  }
+  .slick-prev
+    :before {
+      content: '';
+      height: 38px;
+      width: 38px;
+      display: block;
+      opacity: 1;
+    background: url('	https://www.tourmyindia.com/imgnew/small-left-arrow-pink.svg') no-repeat;
+  }
